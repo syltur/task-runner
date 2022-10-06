@@ -1,0 +1,221 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+body {
+margin: 0 auto;
+width: 100%;
+font-size: 16px;
+}
+.header {
+    position: relative;
+    width: 100%;
+    height: 700px;
+}
+.header-img {
+    position: absolute;
+    z-index: -50;
+    width: 100%;
+    height: 720px;
+    object-fit: cover;
+}
+/*to ponizej do poprawy !!!*/
+.header-img-block {
+    position: absolute;
+    z-index: -10;
+    content: '';
+    background-color: black;
+    width: 100%;
+    height: 720px;
+    top: 0;
+    left: 0;
+    opacity: 0.5;
+}
+
+.container {
+margin: 0 auto;
+width: 1140px;
+padding: 0 20px 0 20px;
+text-align: center;
+}
+section {
+padding: 96px 0 96px 0;
+}
+
+.header-wrapper {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: no-wrap;
+    justify-content: space-between;
+}
+.logo {
+    flex: 1 0 0;
+}
+.pages {
+    flex: 3 0 0 ;
+}
+
+.pages ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: no-wrap;
+}
+.pages ul li {
+    padding: 0 24px;
+    display: block;
+    }
+.pages ul li a {
+    text-decoration: none;
+    width: 70px;
+    height: 10px;
+    color: #ffffff;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 41px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+/* Style for "Golden" */
+.logo {
+    width: 79px;
+    height: 28px;
+    color: #fed136;
+    font-family: 'Pacifico', cursive;
+    font-size: 26px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 41px;
+    text-align: left;
+}
+
+/* Text style for "Golden" */
+.logo-name {
+color: #fed136;
+font-style: normal;
+letter-spacing: 1.3px;
+line-height: normal;
+}
+/*Big Text Box*/
+
+.big-text-box-inner {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.welcome-to {
+    flex: 1 0 0;
+    margin: 10px auto;
+    color: #ffffff;
+    font-family: 'Abyssinica SIL', serif;
+    font-weight: 100;
+    font-size: 40px;
+    font-style: italic;
+    letter-spacing: normal;
+    line-height: normal;
+}
+.its-nice {
+    flex: 1 0 0;
+    width: 100%;
+    margin: 10px auto;
+    color: #ffffff;
+    font-family: Montserrat;
+    font-size: 75px;
+    font-weight: 700;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+    text-transform: uppercase;
+    /* Text style for "It’s nice" */
+    font-style: normal;
+    letter-spacing: -1.88px;
+    line-height: normal;
+}
+.btn-tell-me {
+    flex: 1 0 0;
+    width: 240px;
+    height: 65px;
+    margin: 10px auto;
+    border-color: #fed136;
+    background-color: #fed136;
+    color: #ffffff;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 700;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+    text-transform: uppercase;
+}
+/*Services*/
+.service-tiles {
+    display: inline-flex;
+    flex-direction: row;
+    flex-wrap: no-wrap;
+    margin: 50px 0 0 0;
+}
+.title1 {
+    color: #222222;
+    font-family: Montserrat;
+    font-size: 40px;
+    font-weight: 700;
+    font-style: normal;
+    letter-spacing: normal;
+    margin: 0 auto;
+}
+.p-text {
+    color: #777777;
+    font-family: "Droid Serif";
+    font-size: 16px;
+    font-style: italic;
+    letter-spacing: normal;
+    line-height: normal;
+    text-align: center;
+}
+
+
+.icon {
+    display: inline-block;
+    text-align: center;
+    position: relative;
+    border: 3px solid  #fed136;
+    height: 100px;
+    border-radius: 50%;
+    -moz-border-radius: 50%;
+    -webkit-bordero-radius: 50%;
+    width: 100px;
+    
+}
+.icon-inner {
+    font-size: 40px;
+    color:#fed136;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+.service-tile-title {
+
+}
+
+.service-tile-p {
+width: 274px;
+height: 57px;
+color: #777777;
+font-family: "Roboto Slab";
+font-size: 14px;
+font-weight: 400;
+font-style: normal;
+letter-spacing: normal;
+line-height: normal;
+text-align: center;
+}
