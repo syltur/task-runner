@@ -19,7 +19,6 @@ font-size: 16px;
     height: 720px;
     object-fit: cover;
 }
-/*to ponizej do poprawy !!!*/
 .header-img-block {
     position: absolute;
     z-index: -10;
@@ -141,6 +140,7 @@ line-height: normal;
     line-height: normal;
 }
 .btn-tell-me {
+    padding: 20px;
     flex: 1 0 0;
     width: 240px;
     height: 65px;
